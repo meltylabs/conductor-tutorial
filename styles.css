@@ -6,7 +6,7 @@
 
 body {
     background-color: #ffffff;
-    color: #2ecc71;
+    color: #333333;
     line-height: 1.6;
 }
 
@@ -25,12 +25,12 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #27ae60;
+    color: #333333;
 }
 
 header p {
     font-size: 18px;
-    color: #2ecc71;
+    color: #666666;
 }
 
 .features {
@@ -48,11 +48,11 @@ header p {
 .card h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #27ae60;
+    color: #333333;
 }
 
 .card p {
-    color: #2ecc71;
+    color: #666666;
 }
 
 .cta {
@@ -72,4 +72,30 @@ button {
 
 button:hover {
     background-color: #333;
+}
+
+.debug-info {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.debug-info h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.debug-content p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 8px;
+    font-family: monospace;
+}
+
+.debug-content span {
+    color: #333333;
+    font-weight: normal;
 }
