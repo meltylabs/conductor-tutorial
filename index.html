@@ -34,6 +34,25 @@
                 </li>
             </ul>
         </section>
+        <section class="debug-info">
+            <h2>Debug Info</h2>
+            <div class="debug-content">
+                <p><strong>Workspace Name:</strong> <span id="workspace-name">Loading...</span></p>
+                <p><strong>Workspace Path:</strong> <span id="workspace-path">Loading...</span></p>
+            </div>
+        </section>
     </div>
+    
+    <script>
+        // Get workspace information
+        const workspacePath = window.location.pathname;
+        const pathParts = workspacePath.split('/').filter(part => part);
+        const workspaceName = pathParts[pathParts.length - 1] || 'Philadelphia';
+        
+        // For local file access, we'll use the current directory name
+        // In this case, we know we're in Philadelphia
+        document.getElementById('workspace-name').textContent = 'Philadelphia';
+        document.getElementById('workspace-path').textContent = '/Users/charlie/conductor/repo/conductor-tutorial/philadelphia';
+    </script>
 </body>
 </html>
