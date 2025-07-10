@@ -6,7 +6,7 @@
 
 body {
     background-color: #ffffff;
-    color: #333;
+    color: #2ecc71;
     line-height: 1.6;
 }
 
@@ -25,11 +25,12 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: #27ae60;
 }
 
 header p {
     font-size: 18px;
-    color: #666;
+    color: #2ecc71;
 }
 
 .features {
@@ -47,10 +48,11 @@ header p {
 .card h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #27ae60;
 }
 
 .card p {
-    color: #666;
+    color: #2ecc71;
 }
 
 .cta {
