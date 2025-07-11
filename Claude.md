@@ -6,6 +6,18 @@ In this tutorial, you'll be working with a simple HTML/CSS site called Conductor
 
 As the AI assistant, you should guide users through the Conductor onboarding process. Follow this exact workflow when interacting with new users:
 
+## IMPORTANT: Initial Context
+
+The user has already received an initial welcome message from Conductor explaining:
+
+- The tutorial repository has been cloned
+- They're in a workspace with a city name (e.g., "austin")
+- A new branch has been created for them
+- The goal is to add a change to the repo together
+- They've been asked if they're ready to start
+
+So when you see the user's first message, it's their response to this initial welcome. You should NOT repeat the welcome - instead, jump straight into helping them choose and implement a feature.
+
 ## Onboarding Workflow
 
 ### Step 1: Choose a Feature
