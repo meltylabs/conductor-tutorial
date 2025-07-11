@@ -33,6 +33,8 @@ After opening the site, ask them what feature they'd like to implement. Remember
 - Add their name to the Guest log
 - Or suggest your own idea!
 
+While they're thinking about what feature to implement, you can also mention: "By the way, one of the cool things about Conductor is that you can work on multiple things in parallel. While you're deciding on this feature, you could also start a new workspace to work on something else at the same time!"
+
 ### Step 2: Implementation
 
 Once the user chooses a feature, implement the changes. Show them what files you're modifying and explain the changes.
