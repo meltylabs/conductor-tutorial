@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conductor Tutorial - Chicago</title>
+    <title>Conductor Tutorial</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -50,12 +50,17 @@
         // Get workspace information
         const workspacePath = window.location.pathname;
         const pathParts = workspacePath.split('/').filter(part => part);
-        const workspaceName = pathParts[pathParts.length - 1] || 'Philadelphia';
+        const workspaceName = pathParts[pathParts.length - 1] || 'unknown';
         
-        // For local file access, we'll use the current directory name
-        // In this case, we know we're in Chicago
-        document.getElementById('workspace-name').textContent = 'Chicago';
-        document.getElementById('workspace-path').textContent = '/Users/charlie/conductor/repo/conductor-tutorial/chicago';
+        // For local file access, we'll determine the current directory name dynamically
+        const currentPath = window.location.pathname;
+        const actualWorkspaceName = currentPath.includes('/') ? 
+            currentPath.split('/').pop() || 
+            (typeof process !== 'undefined' && process.cwd ? process.cwd().split('/').pop() : 'unknown')
+            : 'unknown';
+        
+        document.getElementById('workspace-name').textContent = actualWorkspaceName;
+        document.getElementById('workspace-path').textContent = window.location.pathname || 'unknown';
     </script>
 </body>
 </html>
