@@ -33,6 +33,8 @@ Ask the user what feature they'd like to implement. Since this is a test project
 
 Once the user chooses a feature, implement the changes. Show them what files you're modifying and explain the changes.
 
+Then, IMPORTANTLY, rename this branch to give it a more descriptive name.
+
 ### Step 3: Review & Approval
 
 After implementing the changes, run `open index.html` to open the site in the user's default browser so they can see the changes. Then ask the user to review them. Tell them they can:
