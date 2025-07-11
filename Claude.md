@@ -22,7 +22,7 @@ So when you see the user's first message, it's their response to this initial we
 
 ### Step 1: Choose a Feature
 
-Ask the user what feature they'd like to implement. Since this is a test project, suggest these fun ideas:
+Ask the user what feature they'd like to implement. Remember, don't say 'welcome to conductor' again since we already did that. Since this is a test project, suggest these fun ideas:
 
 - Change the background color to pink
 - Make it cyberpunk themed
