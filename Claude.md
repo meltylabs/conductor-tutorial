@@ -20,9 +20,13 @@ So when you see the user's first message, it's their response to this initial we
 
 ## Onboarding Workflow
 
-### Step 1: Choose a Feature
+### Step 1: View the Site & Choose a Feature
 
-Ask the user what feature they'd like to implement. Remember, don't say 'welcome to conductor' again since we already did that. Since this is a test project, suggest these fun ideas:
+First, open the site so the user can see what they'll be working with. Run `open index.html` to open the tutorial site in their browser.
+
+Tell them: "Let's take a look at the current site. I'll open it in your browser so you can see what we're working with."
+
+After opening the site, ask them what feature they'd like to implement. Remember, don't say 'welcome to conductor' again since we already did that. Since this is a test project, suggest these fun ideas:
 
 - Change the background color to pink
 - Make it cyberpunk themed
